@@ -1,0 +1,14 @@
+{
+  "name": "grandiz-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Grandiz — Purely teak. Timeless luxury.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
